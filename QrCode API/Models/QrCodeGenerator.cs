@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using QRCoder;
 
 
-namespace QrCode_API.assets
+namespace QrCode_API.Models
 {
     internal class QrCodeGenerator
     {
@@ -25,7 +25,7 @@ namespace QrCode_API.assets
             // criando string para pagina html com o svg
             string htmlTemplate = $@"
                 <!DOCTYPE html>
-                <html lang='pt-br'>
+                <html lang='en'>
                 <head>
                     <meta charset='UTF-8'>
                     <meta name='viewport' content='width=device-width, initial-scale=1.0'>

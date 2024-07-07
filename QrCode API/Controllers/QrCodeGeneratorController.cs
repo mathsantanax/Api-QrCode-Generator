@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using QrCode_API.assets;
+using QrCode_API.Models;
 
 namespace QrCode_API.Controllers
 {
@@ -11,7 +11,7 @@ namespace QrCode_API.Controllers
     [Route("[controller]")]
     public class QrCodeGeneratorController : ControllerBase
     {
-        [HttpGet("Gerar/{texto}")]
+        [HttpGet("Gerar/{{texto}}/")]
         public IActionResult Gerar(string texto)
         {
             QrCodeGenerator generator = new QrCodeGenerator(); // instanciando a classe
