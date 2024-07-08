@@ -11,3 +11,6 @@ https://qrcodegerador.azurewebsites.net/QrCodeGenerator/GerarComPNG/%7Btexto%7D&
 
 ### Mude o colchete {Exemplo} para o que conteudo que deseja.
 ### Mude o colchete {Tamanho} para o tamanho desejado.
+
+
+https://qrcodegerador.azurewebsites.net/QrCodeGenerator/GerarComPNG/{texto}&{tamanho}?texto=https://qrcodegerador.azurewebsites.net/swagger/index.html&tamanho=5
