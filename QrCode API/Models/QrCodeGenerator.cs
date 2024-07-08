@@ -9,7 +9,7 @@ namespace QrCode_API.Models
 {
     internal class QrCodeGenerator
     {
-        public string GeradorComSvg(string texto)
+        public string GeradorComSvg(string texto, int tamanho)
         {
             // inicializando o qrcode Generator
             QRCodeGenerator qR = new QRCodeGenerator();
@@ -19,25 +19,29 @@ namespace QrCode_API.Models
 
             // Gerando QrCode como SVG
             SvgQRCode qrCode = new SvgQRCode(qRCodeData);
-            string qrCodeAsSvg = qrCode.GetGraphic(20);
+
+            
+            string qrCodeAsSvg = qrCode.GetGraphic(tamanho);
+
+            
 
 
             // criando string para pagina html com o svg
-            string htmlTemplate = $@"
-                <!DOCTYPE html>
-                <html lang='en'>
-                <head>
-                    <meta charset='UTF-8'>
-                    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-                    <title>QR Code</title>
-                </head>
-                <body>
-                    <div>{qrCodeAsSvg}</div>
-                </body>
-                </html>";
+            // string htmlTemplate = $@"
+            //     <!DOCTYPE html>
+            //     <html lang='en'>
+            //     <head>
+            //         <meta charset='UTF-8'>
+            //         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+            //         <title>QR Code</title>
+            //     </head>
+            //     <body>
+            //         <div>{qrCodeAsSvg}</div>
+            //     </body>
+            //     </html>";
 
             //retona a pagina
-            return htmlTemplate;
+            return qrCodeAsSvg;
         }
     }
 }

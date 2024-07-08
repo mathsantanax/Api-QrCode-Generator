@@ -11,11 +11,11 @@ namespace QrCode_API.Controllers
     [Route("[controller]")]
     public class QrCodeGeneratorController : ControllerBase
     {
-        [HttpGet("Gerar/{{texto}}/")]
-        public IActionResult Gerar(string texto)
+        [HttpGet("Gerar/{{texto}}&{{tamanho}}/")]
+        public IActionResult Gerar(string texto, int tamanho)
         {
             QrCodeGenerator generator = new QrCodeGenerator(); // instanciando a classe
-            var PageHtml = generator.GeradorComSvg(texto); // passando parametro para gerar o qrcode
+            var PageHtml = generator.GeradorComSvg(texto, tamanho); // passando parametro para gerar o qrcode
             return Content(PageHtml, "text/html"); // retornando a pagina
         }
     }
