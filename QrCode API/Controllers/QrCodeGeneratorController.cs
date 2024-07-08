@@ -1,9 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using QrCode_API.Models;
+using QRCoder;
 
 namespace QrCode_API.Controllers
 {
@@ -11,12 +12,20 @@ namespace QrCode_API.Controllers
     [Route("[controller]")]
     public class QrCodeGeneratorController : ControllerBase
     {
-        [HttpGet("Gerar/{{texto}}&{{tamanho}}/")]
-        public IActionResult Gerar(string texto, int tamanho)
+        [HttpGet("GerarComPNG/{{texto}}&{{tamanho}}/")]
+        public IActionResult GerarComPNG(string texto, int tamanho)
         {
-            QrCodeGenerator generator = new QrCodeGenerator(); // instanciando a classe
-            var PageHtml = generator.GeradorComSvg(texto, tamanho); // passando parametro para gerar o qrcode
-            return Content(PageHtml, "text/html"); // retornando a pagina
+            // instanciando a classe
+            QRCodeGenerator qR = new QRCodeGenerator();
+
+            // criando o qrcode
+            QRCodeData qRCodeData = qR.CreateQrCode(texto, QRCodeGenerator.ECCLevel.Q);
+
+            //convertendo para byte de png
+            PngByteQRCode pngByte = new PngByteQRCode(qRCodeData);
+            byte[] bytePNG = pngByte.GetGraphic(tamanho); // imagem em byte
+
+            return File( bytePNG, "image/png"); // retornando a imagem       
         }
     }
 }

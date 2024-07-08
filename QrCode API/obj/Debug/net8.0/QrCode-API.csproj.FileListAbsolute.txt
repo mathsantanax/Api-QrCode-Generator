@@ -32,3 +32,6 @@ C:\Users\mathe\Documents\Repositorios\Gerador de QrCode\QrCode API\obj\Debug\net
 C:\Users\mathe\Documents\Repositorios\Gerador de QrCode\QrCode API\obj\Debug\net8.0\QrCode-API.genruntimeconfig.cache
 C:\Users\mathe\Documents\Repositorios\Gerador de QrCode\QrCode API\obj\Debug\net8.0\ref\QrCode-API.dll
 C:\Users\mathe\Documents\Repositorios\Gerador de QrCode\QrCode API\bin\Debug\net8.0\QRCoder.dll
+C:\Users\mathe\Documents\Repositorios\Gerador de QrCode\QrCode API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mathe\Documents\Repositorios\Gerador de QrCode\QrCode API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\mathe\Documents\Repositorios\Gerador de QrCode\QrCode API\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
