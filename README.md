@@ -1,16 +1,61 @@
-# Projeto na criação de uma api em dotnet usando swagger
 
+# QR Code API
 
-## link do projeto
+Esta é uma API simples para gerar QR Codes usando ASP.NET Core e a biblioteca QRCoder.
 
-https://qrcodegerador.azurewebsites.net/swagger/index.html
+## Visão Geral
 
-## ou use a api direto sem o swagger
+A API fornece um endpoint para gerar QR Codes em formato PNG com base em um texto fornecido e um tamanho especificado.
 
-https://qrcodegerador.azurewebsites.net/QrCodeGenerator/GerarComPNG/%7Btexto%7D&%7Btamanho%7D?texto={Exemplo}&tamanho={Tamanho}
+## Endpoints
 
-### Mude o colchete {Exemplo} para o que conteudo que deseja.
-### Mude o colchete {Tamanho} para o tamanho desejado.
+### Gerar QR Code em PNG
 
+- **URL**: `/QrCodeGenerator/GerarComPNG/{texto}&{tamanho}/`
+- **Método**: `GET`
+- **Parâmetros**:
+  - `texto` (string): O texto que será codificado no QR Code.
+  - `tamanho` (int): O tamanho do QR Code gerado.
+- **Resposta**: Uma imagem PNG contendo o QR Code.
 
-<a href="https://qrcodegerador.azurewebsites.net/swagger/index.html"><img src="https://qrcodegerador.azurewebsites.net/QrCodeGenerator/GerarComPNG/{texto}&{tamanho}?texto=https://qrcodegerador.azurewebsites.net/swagger/index.html&tamanho=5"></a>
+## Como Baixar e Executar
+
+1. **Clone o Repositório**: Clone este repositório em sua máquina local usando o comando:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+
+2. **Navegue até o Diretório do Projeto**: 
+   ```bash
+   cd seu-repositorio
+   ```
+
+3. **Instale as Dependências**: Certifique-se de ter o .NET 6.0 SDK instalado. Caso a biblioteca QRCoder não esteja incluída no projeto, adicione-a usando o comando:
+   ```bash
+   dotnet add package QRCoder
+   ```
+
+4. **Compile e Execute a Aplicação**: Execute o seguinte comando para iniciar a aplicação:
+   ```bash
+   dotnet run
+   ```
+
+5. **Acesse o Swagger UI**: Para interagir com a API e testar os endpoints, abra o navegador e acesse:
+   ```plaintext
+   https://localhost:{porta}/swagger
+   ```
+
+## Estrutura do Projeto
+
+- **Controllers/QrCodeGeneratorController.cs**: Contém a lógica para geração de QR Codes.
+- **Program.cs**: Configurações principais da aplicação, incluindo serviços e middlewares.
+
+## Tecnologias Utilizadas
+
+- **ASP.NET Core**: Framework para construção da API.
+- **QRCoder**: Biblioteca utilizada para geração de QR Codes.
+- **Swagger/OpenAPI**: Para documentação e testes da API.
+
+## Licença
+
+Este projeto é licenciado sob os termos da licença MIT.

@@ -1153,11 +1153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mathe\\Documents\\Repositorios\\Gerador de QrCode\\QrCode API\\QrCode-API.csproj",
+      "projectUniqueName": "C:\\Users\\mathe\\documents\\repositorios\\api-qrcode-generator\\QrCode API\\QrCode-API.csproj",
       "projectName": "QrCode-API",
-      "projectPath": "C:\\Users\\mathe\\Documents\\Repositorios\\Gerador de QrCode\\QrCode API\\QrCode-API.csproj",
+      "projectPath": "C:\\Users\\mathe\\documents\\repositorios\\api-qrcode-generator\\QrCode API\\QrCode-API.csproj",
       "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mathe\\Documents\\Repositorios\\Gerador de QrCode\\QrCode API\\obj\\",
+      "outputPath": "C:\\Users\\mathe\\documents\\repositorios\\api-qrcode-generator\\QrCode API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

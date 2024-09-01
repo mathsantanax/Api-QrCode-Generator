@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kuTzFAJmSsQ=",
+  "dgSpecHash": "9M3TFYqpNjQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathe\\Documents\\Repositorios\\Gerador de QrCode\\QrCode API\\QrCode-API.csproj",
+  "projectFilePath": "C:\\Users\\mathe\\documents\\repositorios\\api-qrcode-generator\\QrCode API\\QrCode-API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
