@@ -34,4 +34,4 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        publish_dir: ${{ github.workspace }}/publish
+        publish_dir: ${{ github.workspace }}/swagger/index.html
