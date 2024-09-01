@@ -1,4 +1,4 @@
-name: Build and Deploy ASP.NET Core API
+name: Build and Deploy Swagger Documentation
 
 on:
   push:
@@ -34,5 +34,5 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        publish_dir: ${{ github.workspace }}/swagger/index.html
+        publish_dir: ${{ github.workspace }}/swagger
         github_token: ${{ secrets.GITHUB_TOKEN }}
