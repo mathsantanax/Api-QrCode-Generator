@@ -35,3 +35,40 @@ C:\Users\mathe\Documents\Repositorios\Gerador de QrCode\QrCode API\bin\Debug\net
 C:\Users\mathe\Documents\Repositorios\Gerador de QrCode\QrCode API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\mathe\Documents\Repositorios\Gerador de QrCode\QrCode API\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\mathe\Documents\Repositorios\Gerador de QrCode\QrCode API\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\bin\Debug\net8.0\appsettings.json
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\bin\Debug\net8.0\QrCode-API.exe
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\bin\Debug\net8.0\QrCode-API.deps.json
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\bin\Debug\net8.0\QrCode-API.runtimeconfig.json
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\bin\Debug\net8.0\QrCode-API.dll
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\bin\Debug\net8.0\QrCode-API.pdb
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\bin\Debug\net8.0\QRCoder.dll
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\QrCode-API.csproj.AssemblyReference.cache
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\QrCode-API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\QrCode-API.AssemblyInfoInputs.cache
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\QrCode-API.AssemblyInfo.cs
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\QrCode-API.csproj.CoreCompileInputs.cache
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\QrCode-API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\QrCode-API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\QrCode-API.sourcelink.json
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\staticwebassets\msbuild.QrCode-API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\staticwebassets\msbuild.build.QrCode-API.props
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QrCode-API.props
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QrCode-API.props
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\scopedcss\bundle\QrCode-API.styles.css
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\QrCode-API.csproj.Up2Date
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\QrCode-API.dll
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\refint\QrCode-API.dll
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\QrCode-API.pdb
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\QrCode-API.genruntimeconfig.cache
+C:\Users\mathe\documents\repositorios\api-qrcode-generator\QrCode API\obj\Debug\net8.0\ref\QrCode-API.dll
