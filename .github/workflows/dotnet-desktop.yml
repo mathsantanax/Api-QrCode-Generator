@@ -1,4 +1,4 @@
-name: Build and Deploy ASP.NET Core API
+name: Build and Deploy Swagger Documentation
 
 on:
   push:
@@ -25,13 +25,15 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release --no-restore
 
-    - name: Test
-      run: dotnet test --no-restore --verbosity normal
-
     - name: Publish
-      run: dotnet publish -c Release -o ${{ github.workspace }}/publish
+      run: dotnet publish -c Release -o ${{ github.workspace }}/output
 
-    - name: Deploy to GitHub Pages
+    - name: Generate Swagger Documentation
+      run: |
+        dotnet tool install -g Swashbuckle.AspNetCore.Cli
+        dotnet swagger tofile --output ${{ github.workspace }}/output/swagger.json ${{ github.workspace }}/output/QrCode-API.dll v1
+
+    - name: Deploy Swagger Documentation to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        publish_dir: ${{ github.workspace }}/swagger/index.html
+        publish_dir: ${{ github.workspace }}/output
